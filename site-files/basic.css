@@ -1,17 +1,24 @@
-/* .Mostly just colour scheme and font for now */
-  html {
+/* .Mostly just colour scheme and font for now. 
+general styling  */
+html {
     color: rebeccapurple;
     background-color: black;
     /* change font family eventually */
     font-family: "Times New Roman", Times, serif;
   }
-  table {
-    border-collapse: collapse;
-    }
-   td, tr {
+/* link styling */
+a, a:hover {
+    color: hotpink;
+}
+a:visited {
+  color: red;
+}
+/* Table styling */
+  td, tr { 
      border: 2px solid rebeccapurple;
+     border-collapse: collapse;
      }
-  caption {
+caption {
     caption-side: bottom;
     font-weight: bold;
     }
