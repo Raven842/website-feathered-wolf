@@ -14,7 +14,7 @@ a:visited {
   color: red;
 }
 /* Table styling */
-table, td, tr { 
+table, td, tr, th { 
      border: 2px solid rebeccapurple;
      border-collapse: collapse;
      }
