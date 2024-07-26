@@ -1,5 +1,4 @@
-/* .Mostly just colour scheme and font for now. 
-general styling  */
+/* .Mostly just colour scheme and font for now. */
 html {
     color: rebeccapurple;
     background-color: black;
@@ -14,10 +13,10 @@ a:visited {
   color: red;
 }
 /* Table styling */
-  td, tr { 
-     border: 2px solid rebeccapurple;
-     border-collapse: collapse;
-     }
+table, td, tr {
+  border: 2px solid rebeccapurple;
+  border-collapse: collapse;
+}
 caption {
     caption-side: bottom;
     font-weight: bold;
